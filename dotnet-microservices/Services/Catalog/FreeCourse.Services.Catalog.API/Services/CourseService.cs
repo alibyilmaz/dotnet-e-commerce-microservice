@@ -76,6 +76,43 @@ namespace FreeCourse.Services.Catalog.API.Services
             return ResponseDto<List<CourseDto>>.Success(_mapper.Map<List<CourseDto>>(courses), 200);
 
         }
+        public async Task<ResponseDto<CourseDto>> CreateAsync(CourseCreateDto courseCreateDto)
+        {
+            var newCourse = _mapper.Map<Course>(courseCreateDto);
+            newCourse.CreatedTime = DateTime.Now;
 
+            await _courseCollection.InsertOneAsync(newCourse);
+
+            return ResponseDto<CourseDto>.Success(_mapper.Map<CourseDto>(newCourse), 200);
+        }
+
+        public async Task<ResponseDto<NoContent>> UpdateAsync(CourseUpdateDto courseUpdateDto )
+        {
+            var updatedCourse = _mapper.Map<Course>(courseUpdateDto);
+            var result = await _courseCollection.FindOneAndReplaceAsync(x => x.Id == courseUpdateDto.Id, updatedCourse);
+            if(result==null)
+            {
+                return ResponseDto<NoContent>.Fail("course not found", 404);
+            }
+
+            return ResponseDto<NoContent>.Success(204);
+        }
+
+        public async Task<ResponseDto<NoContent>> DeleteAsync(string id)
+        {
+            var result = await _courseCollection.DeleteOneAsync(x => x.Id == id);
+
+            if (result.DeletedCount>0)
+            {
+                return ResponseDto<NoContent>.Success(204);
+
+               
+            }
+
+            else
+            {
+                return ResponseDto<NoContent>.Fail("course not found", 404);
+            }
+        }
     }
 }
