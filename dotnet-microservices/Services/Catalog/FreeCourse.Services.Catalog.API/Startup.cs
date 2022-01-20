@@ -31,6 +31,7 @@ namespace FreeCourse.Services.Catalog.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FreeCourse.Services.Catalog.API", Version = "v1" });
             });
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
