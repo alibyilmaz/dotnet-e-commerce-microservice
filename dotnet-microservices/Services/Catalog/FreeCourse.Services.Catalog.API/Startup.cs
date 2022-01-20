@@ -35,6 +35,7 @@ namespace FreeCourse.Services.Catalog.API
             });
 
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ICourseService, CourseService>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

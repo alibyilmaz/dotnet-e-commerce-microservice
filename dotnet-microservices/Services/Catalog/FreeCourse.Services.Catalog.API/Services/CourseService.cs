@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace FreeCourse.Services.Catalog.API.Services
 {
-    public class CourseService
+    public class CourseService : ICourseService
     {
         private readonly IMongoCollection<Course> _courseCollection;
         private readonly IMongoCollection<Category> _categoryCollection;
@@ -51,7 +51,7 @@ namespace FreeCourse.Services.Catalog.API.Services
         public async Task<ResponseDto<CourseDto>> GetByIdAsync(string id)
         {
             var courses = await _courseCollection.Find<Course>(x => x.Id == id).FirstOrDefaultAsync();
-            if (courses==null)
+            if (courses == null)
             {
                 return ResponseDto<CourseDto>.Fail("course not found", 404);
             }
@@ -86,11 +86,11 @@ namespace FreeCourse.Services.Catalog.API.Services
             return ResponseDto<CourseDto>.Success(_mapper.Map<CourseDto>(newCourse), 200);
         }
 
-        public async Task<ResponseDto<NoContent>> UpdateAsync(CourseUpdateDto courseUpdateDto )
+        public async Task<ResponseDto<NoContent>> UpdateAsync(CourseUpdateDto courseUpdateDto)
         {
             var updatedCourse = _mapper.Map<Course>(courseUpdateDto);
             var result = await _courseCollection.FindOneAndReplaceAsync(x => x.Id == courseUpdateDto.Id, updatedCourse);
-            if(result==null)
+            if (result == null)
             {
                 return ResponseDto<NoContent>.Fail("course not found", 404);
             }
@@ -102,11 +102,11 @@ namespace FreeCourse.Services.Catalog.API.Services
         {
             var result = await _courseCollection.DeleteOneAsync(x => x.Id == id);
 
-            if (result.DeletedCount>0)
+            if (result.DeletedCount > 0)
             {
                 return ResponseDto<NoContent>.Success(204);
 
-               
+
             }
 
             else
