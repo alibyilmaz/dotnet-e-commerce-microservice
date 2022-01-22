@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4OJpnYM/H4g9Qet/qUFwljCZGtVkzbi/IfghVGmSD5izVXPN70aAhjdJjGlJifYOki+fzAoL/OW9XmeostHgXA==",
+  "dgSpecHash": "tBeXcjIzhnA+w7LNJsVi+OFohbd1P9WKCOpTzgu2hSEV7y8xr33M3mE70yhdmn6bkTthrhILLZwvkfLxR+KeWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\IdentityServer\\FreeCourse.IdentityServer\\FreeCourse.IdentityServer.csproj",
   "expectedPackageFiles": [
