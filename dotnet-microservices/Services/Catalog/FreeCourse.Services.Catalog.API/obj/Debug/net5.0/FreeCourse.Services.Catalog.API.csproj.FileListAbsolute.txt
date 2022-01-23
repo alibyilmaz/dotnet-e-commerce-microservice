@@ -51,3 +51,10 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\ref\FreeCourse.Services.Catalog.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\FreeCourse.Services.Catalog.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\FreeCourse.Services.Catalog.API.genruntimeconfig.cache
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
