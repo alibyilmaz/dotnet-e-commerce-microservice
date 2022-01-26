@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace FreeCourse.Services.Basket.Services
+namespace FreeCourse.Services.Basket.Services.API
 {
     public class BasketService : IBasketService
     {
