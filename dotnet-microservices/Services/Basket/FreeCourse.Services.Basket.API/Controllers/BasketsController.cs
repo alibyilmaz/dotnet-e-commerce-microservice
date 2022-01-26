@@ -1,5 +1,6 @@
 ﻿using FreeCourse.Services.Basket.API.Dtos;
 using FreeCourse.Services.Basket.API.Services;
+using FreeCourse.Services.Basket.Services;
 using FreeCourse.Shared.ControllerBases;
 using FreeCourse.Shared.Services;
 using Microsoft.AspNetCore.Http;
@@ -9,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FreeCourse.Services.Basket.API.Controllers
+namespace FreeCourse.Services.Basket.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -27,19 +28,21 @@ namespace FreeCourse.Services.Basket.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetBasket()
         {
-            var claims = User.Claims;
             return CreateActionResultInstance(await _basketService.GetBasket(_sharedIdentityService.GetUserId));
         }
 
         [HttpPost]
-        public async Task<IActionResult> SaveorUpdateBasket(BasketDto basketDto)
+        public async Task<IActionResult> SaveOrUpdateBasket(BasketDto basketDto)
         {
-
+            basketDto.UserId = _sharedIdentityService.GetUserId;
             var response = await _basketService.SaveOrUpdate(basketDto);
+
             return CreateActionResultInstance(response);
         }
+
         [HttpDelete]
-        public async Task<IActionResult> Delete()
+        public async Task<IActionResult> DeleteBasket()
+
         {
             return CreateActionResultInstance(await _basketService.Delete(_sharedIdentityService.GetUserId));
         }

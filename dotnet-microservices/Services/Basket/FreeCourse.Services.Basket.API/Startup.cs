@@ -1,5 +1,6 @@
 using FreeCourse.Services.Basket.API.Services;
 using FreeCourse.Services.Basket.API.Settings;
+using FreeCourse.Services.Basket.Services;
 using FreeCourse.Shared.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
