@@ -1,3 +1,5 @@
+using FreeCourse.Services.Discount.API.Services;
+using FreeCourse.Shared.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -44,7 +46,9 @@ namespace FreeCourse.Services.Discount.API
                 opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
             });
 
-            
+            services.AddHttpContextAccessor();
+            services.AddScoped<ISharedIdentityService, SharedIdentityService>();
+            services.AddScoped<IDiscountService, DiscountService>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FreeCourse.Services.Discount.API", Version = "v1" });
