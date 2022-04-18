@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Shared\FreeCourse.Shared\FreeCourse.Shared.csproj" />
-    <ProjectReference Include="..\FreeCouse.Services.Order.Application\FreeCouse.Services.Order.Application.csproj" />
+    <ProjectReference Include="..\FreeCouse.Services.Order.Application\FreeCourse.Services.Order.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

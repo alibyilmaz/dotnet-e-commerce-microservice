@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCouse.Services.Order.Application\\FreeCouse.Services.Order.Application.csproj": {
-                "projectPath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCouse.Services.Order.Application\\FreeCouse.Services.Order.Application.csproj"
+              "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCouse.Services.Order.Application\\FreeCourse.Services.Order.Application.csproj": {
+                "projectPath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCouse.Services.Order.Application\\FreeCourse.Services.Order.Application.csproj"
               },
               "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
                 "projectPath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj"
@@ -225,6 +225,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -244,12 +260,12 @@
         }
       }
     },
-    "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCouse.Services.Order.Application\\FreeCouse.Services.Order.Application.csproj": {
+    "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCouse.Services.Order.Application\\FreeCourse.Services.Order.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCouse.Services.Order.Application\\FreeCouse.Services.Order.Application.csproj",
-        "projectName": "FreeCouse.Services.Order.Application",
-        "projectPath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCouse.Services.Order.Application\\FreeCouse.Services.Order.Application.csproj",
+        "projectUniqueName": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCouse.Services.Order.Application\\FreeCourse.Services.Order.Application.csproj",
+        "projectName": "FreeCourse.Services.Order.Application",
+        "projectPath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCouse.Services.Order.Application\\FreeCourse.Services.Order.Application.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCouse.Services.Order.Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -286,6 +302,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
