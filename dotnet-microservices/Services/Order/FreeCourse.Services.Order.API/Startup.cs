@@ -1,4 +1,6 @@
 using FreeCourse.Services.Order.Infrastructure;
+using FreeCourse.Shared.Services;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -30,6 +32,9 @@ namespace FreeCourse.Services.Order.API
                 });
 
             });
+            services.AddMediatR(typeof(Application.Handlers.CreateOrderCommandHandler).Assembly);
+            services.AddScoped<ISharedIdentityService,SharedIdentityService>();
+            services.AddHttpContextAccessor();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
