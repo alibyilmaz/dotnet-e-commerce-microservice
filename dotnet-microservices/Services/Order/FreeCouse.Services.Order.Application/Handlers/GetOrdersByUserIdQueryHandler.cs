@@ -15,7 +15,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FreeCourse.Services.Order.Application.Handlers
 {
-    class GetOrdersByUserIdQueryHandler : IRequestHandler<GetOrdersByUserIdQuery, ResponseDto<List<OrderDto>>>
+  public  class GetOrdersByUserIdQueryHandler : IRequestHandler<GetOrdersByUserIdQuery, ResponseDto<List<OrderDto>>>
     {
         private readonly OrderDbContext _context;
 

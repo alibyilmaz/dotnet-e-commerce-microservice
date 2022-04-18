@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FreeCourse.Services.Order.Application.Queries
 {
-     class GetOrdersByUserIdQuery : IRequest<ResponseDto<List<OrderDto>>>
+    public class GetOrdersByUserIdQuery : IRequest<ResponseDto<List<OrderDto>>>
     {
         public string UserId { get; set; }
     }
