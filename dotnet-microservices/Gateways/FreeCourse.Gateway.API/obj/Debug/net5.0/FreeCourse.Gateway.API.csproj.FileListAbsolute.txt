@@ -30,3 +30,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\bin\Debug\net5.0\Ocelot.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.csproj.CopyComplete
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\bin\Debug\net5.0\configuration.development.json
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\bin\Debug\net5.0\configuration.production.json
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.csproj.AssemblyReference.cache
