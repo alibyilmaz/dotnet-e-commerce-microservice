@@ -9,16 +9,30 @@ using System.Linq;
 using System.Threading.Tasks;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Configuration;
 
 namespace FreeCourse.Gateway.API
 {
     public class Startup
     {
+        private readonly IConfiguration Configuration;
+
+        public Startup( IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddOcelot();
+            services.AddAuthentication().AddJwtBearer("GatewayAuthenticationScheme", options =>
+            {
+                options.Authority = Configuration["IdentityServerURL"];
+                options.Audience = "resource_gateway";
+                options.RequireHttpsMetadata = false;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
