@@ -11,6 +11,7 @@ using FreeCourse.Web.Client.Models;
 using FreeCourse.Web.Client.Services.Interfaces;
 using FreeCourse.Web.Client.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using FreeCourse.Web.Client.Handler;
 
 namespace FreeCourse.Web.Client
 {
@@ -26,8 +27,14 @@ namespace FreeCourse.Web.Client
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var serviceApiSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
+            services.AddScoped<ResourceOwnerPasswordTokenHandler>();
             services.AddHttpContextAccessor();
             services.AddHttpClient<IIdentityService, IdentityService>();
+            services.AddHttpClient<IUserService, UserService>(opt =>
+            {
+                opt.BaseAddress = new Uri(serviceApiSettings.IdentityBaseUri);
+            }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
             services.Configure<ClientSettings>(Configuration.GetSection("ClientSettings"));
             services.Configure<ServiceApiSettings>(Configuration.GetSection("ServiceApiSettings"));
             services.AddControllersWithViews();
