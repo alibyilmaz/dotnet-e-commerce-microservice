@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Json;
 using System.Threading.Tasks;
+using FreeCourse.Shared.Dtos;
 using FreeCourse.Web.Client.Models;
 using FreeCourse.Web.Client.Models.Catalogs;
 using FreeCourse.Web.Client.Services.Interfaces;
@@ -32,9 +34,16 @@ namespace FreeCourse.Web.Client.Services
             throw new NotImplementedException();
         }
 
-        public Task<List<CourseViewModel>> GetAllCourseAsync()
+        public async Task<List<CourseViewModel>> GetAllCourseAsync()
         {
-            throw new NotImplementedException();
+            var response = await _client.GetAsync("courses");
+            if (!response.IsSuccessStatusCode)
+            {
+                return null;
+            }
+
+            var responseSuccess = await response.Content.ReadFromJsonAsync<ResponseDto<List<CourseViewModel>>>();
+            return responseSuccess.Data;
         }
 
         public Task<List<CourseViewModel>> GetAllCourseByIdAsync(string courseId)
