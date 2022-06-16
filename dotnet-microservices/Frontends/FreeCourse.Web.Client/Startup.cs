@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FreeCourse.Shared.Services;
 using FreeCourse.Web.Client.Models;
 using FreeCourse.Web.Client.Services.Interfaces;
 using FreeCourse.Web.Client.Services;
@@ -31,6 +32,7 @@ namespace FreeCourse.Web.Client
             services.AddScoped<ResourceOwnerPasswordTokenHandler>();
             services.AddHttpContextAccessor();
             services.AddHttpClient<IIdentityService, IdentityService>();
+            services.AddScoped<ISharedIdentityService,SharedIdentityService>();
             services.AddHttpClient<IUserService, UserService>(opt =>
             {
                 opt.BaseAddress = new Uri(serviceApiSettings.IdentityBaseUri);
