@@ -19,19 +19,28 @@ namespace FreeCourse.Web.Client.Services
         {
             _client = client;   
         }
-        public Task<bool> AddCourseAsync(CourseCreateInput courseCreateInput)
+        public async Task<bool> AddCourseAsync(CourseCreateInput courseCreateInput)
         {
-            throw new NotImplementedException();
+            var response = await _client.PostAsJsonAsync<CourseCreateInput>("courses", courseCreateInput);
+            return response.IsSuccessStatusCode;
         }
 
-        public Task<bool> DeleteCourseAsync(string courseId)
+        public async Task<bool> DeleteCourseAsync(string courseId)
         {
-            throw new NotImplementedException();
+            var response = await _client.DeleteAsync($"courses/{courseId}");
+            return response.IsSuccessStatusCode;
         }
 
-        public Task<List<CategoryViewModel>> GetAllCategoryAsync()
+        public async Task<List<CategoryViewModel>> GetAllCategoryAsync()
         {
-            throw new NotImplementedException();
+            var response = await _client.GetAsync("categories");
+            if (!response.IsSuccessStatusCode)
+            {
+                return null;
+            }
+
+            var responseSuccess = await response.Content.ReadFromJsonAsync<ResponseDto<List<CategoryViewModel>>>();
+            return responseSuccess.Data;
         }
 
         public async Task<List<CourseViewModel>> GetAllCourseAsync()
@@ -46,9 +55,16 @@ namespace FreeCourse.Web.Client.Services
             return responseSuccess.Data;
         }
 
-        public Task<List<CourseViewModel>> GetAllCourseByIdAsync(string courseId)
+        public async Task<List<CourseViewModel>> GetByCourseId(string courseId)
         {
-            throw new NotImplementedException();
+            var response = await _client.GetAsync($"courses/{courseId}");
+            if (!response.IsSuccessStatusCode)
+            {
+                return null;
+            }
+
+            var responseSuccess = await response.Content.ReadFromJsonAsync<ResponseDto<List<CourseViewModel>>>();
+            return responseSuccess.Data;
         }
 
         public Task<List<CourseViewModel>> GetAllCourseByUserIdAsync(string userId)
@@ -56,9 +72,10 @@ namespace FreeCourse.Web.Client.Services
             throw new NotImplementedException();
         }
 
-        public Task<bool> UpdateCourseAsync(CourseUpdateInput courseUpdateInput)
+        public async Task<bool> UpdateCourseAsync(CourseUpdateInput courseUpdateInput)
         {
-            throw new NotImplementedException();
+            var response = await _client.PutAsJsonAsync<CourseUpdateInput>("courses", courseUpdateInput);
+            return response.IsSuccessStatusCode;
         }
     }
 }
