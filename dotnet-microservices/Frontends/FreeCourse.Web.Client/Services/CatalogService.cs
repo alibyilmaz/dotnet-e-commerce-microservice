@@ -55,18 +55,6 @@ namespace FreeCourse.Web.Client.Services
             return responseSuccess.Data;
         }
 
-        public async Task<List<CourseViewModel>> GetByCourseId(string courseId)
-        {
-            var response = await _client.GetAsync($"courses/{courseId}");
-            if (!response.IsSuccessStatusCode)
-            {
-                return null;
-            }
-
-            var responseSuccess = await response.Content.ReadFromJsonAsync<ResponseDto<List<CourseViewModel>>>();
-            return responseSuccess.Data;
-        }
-
         public async Task<List<CourseViewModel>> GetAllCourseByUserIdAsync(string userId)
         {
             var response = await _client.GetAsync($"courses/GetAllByUserId/{userId}");
@@ -83,6 +71,19 @@ namespace FreeCourse.Web.Client.Services
         {
             var response = await _client.PutAsJsonAsync<CourseUpdateInput>("courses", courseUpdateInput);
             return response.IsSuccessStatusCode;
+        }
+
+
+       public async Task<CourseViewModel> GetByCourseId(string courseId)
+        {
+            var response = await _client.GetAsync($"courses/{courseId}");
+            if (!response.IsSuccessStatusCode)
+            {
+                return null;
+            }
+
+            var responseSuccess = await response.Content.ReadFromJsonAsync<ResponseDto<CourseViewModel>>();
+            return responseSuccess.Data;
         }
     }
 }

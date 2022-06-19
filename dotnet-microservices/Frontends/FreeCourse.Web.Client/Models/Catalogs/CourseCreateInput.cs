@@ -23,7 +23,8 @@ namespace FreeCourse.Web.Client.Models.Catalogs
         public string Picture { get; set; }
 
         public FeaturedViewModel Feature { get; set; }
-
+        [Display(Name = "Course Category")]
+        [Required]
         public string CategoryId { get; set; }
 
 

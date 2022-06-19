@@ -12,7 +12,7 @@ namespace FreeCourse.Web.Client.Services.Interfaces
         Task<List<CourseViewModel>> GetAllCourseAsync();
         Task<List<CategoryViewModel>> GetAllCategoryAsync();
         Task<List<CourseViewModel>> GetAllCourseByUserIdAsync(string userId);
-       
+        Task<CourseViewModel> GetByCourseId(string courseId);
 
         Task<bool> DeleteCourseAsync(string courseId);
         Task<bool> AddCourseAsync(CourseCreateInput courseCreateInput);

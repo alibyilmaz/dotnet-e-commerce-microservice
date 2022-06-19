@@ -50,13 +50,15 @@ namespace FreeCourse.Services.Catalog.API.Services
 
         public async Task<ResponseDto<CourseDto>> GetByIdAsync(string id)
         {
-            var courses = await _courseCollection.Find<Course>(x => x.Id == id).FirstOrDefaultAsync();
-            if (courses == null)
+            var course = await _courseCollection.Find<Course>(x => x.Id == id).FirstOrDefaultAsync();
+
+            if (course == null)
             {
-                return ResponseDto<CourseDto>.Fail("course not found", 404);
+                return ResponseDto<CourseDto>.Fail("Course not found", 404);
             }
-            courses.Category = await _categoryCollection.Find<Category>(x => x.Id == courses.CategoryId).FirstAsync();
-            return ResponseDto<CourseDto>.Success(_mapper.Map<CourseDto>(courses), 200);
+            course.Category = await _categoryCollection.Find<Category>(x => x.Id == course.CategoryId).FirstAsync();
+
+            return ResponseDto<CourseDto>.Success(_mapper.Map<CourseDto>(course), 200);
         }
 
         public async Task<ResponseDto<List<CourseDto>>> GetAllByUserId(string userId)
