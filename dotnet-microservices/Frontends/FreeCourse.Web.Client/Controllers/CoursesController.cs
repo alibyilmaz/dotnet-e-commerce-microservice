@@ -92,7 +92,7 @@ namespace FreeCourse.Web.Client.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> Delete(string id)
+        public async Task<IActionResult> Remove(string id)
         {
             await _catalogService.DeleteCourseAsync(id);
 
