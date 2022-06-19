@@ -2,6 +2,7 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\bin\Debug\net5.0\FreeCourse.Services.Order.Core.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\bin\Debug\net5.0\ref\FreeCourse.Services.Order.Core.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\bin\Debug\net5.0\FreeCourse.Services.Order.Core.pdb
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\obj\Debug\net5.0\FreeCourse.Services.Order.Core.csproj.AssemblyReference.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\obj\Debug\net5.0\FreeCourse.Services.Order.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\obj\Debug\net5.0\FreeCourse.Services.Order.Core.AssemblyInfoInputs.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\obj\Debug\net5.0\FreeCourse.Services.Order.Core.AssemblyInfo.cs
@@ -9,4 +10,3 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\obj\Debug\net5.0\FreeCourse.Services.Order.Core.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\obj\Debug\net5.0\ref\FreeCourse.Services.Order.Core.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\obj\Debug\net5.0\FreeCourse.Services.Order.Core.pdb
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\obj\Debug\net5.0\FreeCourse.Services.Order.Core.csproj.AssemblyReference.cache

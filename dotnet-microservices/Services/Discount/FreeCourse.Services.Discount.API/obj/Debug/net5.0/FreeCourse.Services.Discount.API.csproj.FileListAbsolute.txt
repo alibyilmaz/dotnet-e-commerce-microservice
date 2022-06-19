@@ -24,6 +24,7 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\bin\Debug\net5.0\FreeCourse.Shared.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\bin\Debug\net5.0\FreeCourse.Shared.pdb
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.csproj.AssemblyReference.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.AssemblyInfoInputs.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.AssemblyInfo.cs
@@ -39,4 +40,3 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\ref\FreeCourse.Services.Discount.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.genruntimeconfig.cache
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.csproj.AssemblyReference.cache

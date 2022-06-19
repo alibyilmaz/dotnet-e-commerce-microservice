@@ -16,7 +16,7 @@ namespace FreeCourse.Services.Catalog.API.Controller
     public class CoursesController : CustomBaseController
     {
         private readonly ICourseService _courseService;
-
+     
         public CoursesController(ICourseService courseService)
         {
             _courseService = courseService;
@@ -65,5 +65,6 @@ namespace FreeCourse.Services.Catalog.API.Controller
 
             return CreateActionResultInstance(response);
         }
+
     }
 }

@@ -31,8 +31,11 @@ namespace FreeCourse.Web.Client
             var serviceApiSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
             services.AddScoped<ResourceOwnerPasswordTokenHandler>();
             services.AddHttpContextAccessor();
+            services.AddAccessTokenManagement();
             services.AddHttpClient<IIdentityService, IdentityService>();
             services.AddScoped<ISharedIdentityService,SharedIdentityService>();
+            services.AddScoped<ClientCredentialTokenHandler>();
+            services.AddHttpClient<IClientCredentialTokenService, ClientCredentialTokenService>();
             services.AddHttpClient<IUserService, UserService>(opt =>
             {
                 opt.BaseAddress = new Uri(serviceApiSettings.IdentityBaseUri);
@@ -40,7 +43,7 @@ namespace FreeCourse.Web.Client
             services.AddHttpClient<ICatalogService, CatalogService>(opt =>
             {
                 opt.BaseAddress = new Uri($"{serviceApiSettings.GatewayBaseUri}/{serviceApiSettings.Catalog.Path}");
-            });
+            }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
             services.Configure<ClientSettings>(Configuration.GetSection("ClientSettings"));
             services.Configure<ServiceApiSettings>(Configuration.GetSection("ServiceApiSettings"));
             services.AddControllersWithViews();
