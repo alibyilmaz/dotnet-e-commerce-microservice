@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using FreeCourse.Shared.Services;
 using FreeCourse.Web.Client.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace FreeCourse.Web.Client.Controllers
 {
@@ -22,6 +23,13 @@ namespace FreeCourse.Web.Client.Controllers
         {
             return View(await _catalogService.GetAllCourseByUserIdAsync(_sharedIdentityService.GetUserId));
 
+        }
+
+        public async Task<IActionResult> CreateCourse()
+        {
+            var categories = await _catalogService.GetAllCategoryAsync();
+            ViewBag.categoryList = new SelectList(categories, "Id", "Name");
+            return View();
         }
     }
 }

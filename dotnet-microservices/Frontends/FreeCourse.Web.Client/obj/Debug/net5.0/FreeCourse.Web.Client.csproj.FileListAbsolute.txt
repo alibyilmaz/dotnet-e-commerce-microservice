@@ -164,3 +164,4 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\ref\FreeCourse.Web.Client.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\FreeCourse.Web.Client.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\FreeCourse.Web.Client.genruntimeconfig.cache
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\Razor\Views\Courses\CreateCourse.cshtml.g.cs
