@@ -39,3 +39,4 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\ref\FreeCourse.Gateway.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.genruntimeconfig.cache
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.csproj.AssemblyReference.cache

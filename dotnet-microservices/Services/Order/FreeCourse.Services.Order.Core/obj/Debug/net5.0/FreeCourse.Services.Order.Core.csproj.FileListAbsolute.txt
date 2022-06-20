@@ -9,3 +9,4 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\obj\Debug\net5.0\FreeCourse.Services.Order.Core.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\obj\Debug\net5.0\ref\FreeCourse.Services.Order.Core.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\obj\Debug\net5.0\FreeCourse.Services.Order.Core.pdb
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Core\obj\Debug\net5.0\FreeCourse.Services.Order.Core.csproj.AssemblyReference.cache
