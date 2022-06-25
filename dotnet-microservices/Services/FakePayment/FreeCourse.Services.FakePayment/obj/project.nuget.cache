@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hx5r/ND/wpVKStSkPpyavRQDlvmekas93hsDTC/yhg1Zk2oTHscUcLMHJzsM8O8M5oltWiXZRVKyj+F0nAz8XA==",
+  "dgSpecHash": "sJm5N9KZpP/7VZ+jUuXLiYQNAE5yQqWnKmvNmvKT7mQBp1+psa1oN3GukglRvRhZkwbVRLeZUPU7zcnDgOI0oQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\FakePayment\\FreeCourse.Services.FakePayment\\FreeCourse.Services.FakePayment.API.csproj",
   "expectedPackageFiles": [

@@ -13,6 +13,7 @@ using FreeCourse.Web.Client.Services.Interfaces;
 using FreeCourse.Web.Client.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using FreeCourse.Web.Client.Handler;
+using FreeCourse.Web.Client.Helpers;
 
 namespace FreeCourse.Web.Client
 {
@@ -48,6 +49,7 @@ namespace FreeCourse.Web.Client
             {
                 opt.BaseAddress = new Uri($"{serviceApiSettings.GatewayBaseUri}/{serviceApiSettings.PhotoStock.Path}");
             }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+            services.AddSingleton<PhotoHelper>();
             services.Configure<ClientSettings>(Configuration.GetSection("ClientSettings"));
             services.Configure<ServiceApiSettings>(Configuration.GetSection("ServiceApiSettings"));
             services.AddControllersWithViews();

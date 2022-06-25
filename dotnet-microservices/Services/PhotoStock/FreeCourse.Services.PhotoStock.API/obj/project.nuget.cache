@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I17M09Z2dqYzQl+cO08xYijB5oUZsbUS61nTYkf6j32KHQetd5MBmZI8/M61LyHD2EFKWfLOXOt2q9phWLc9OA==",
+  "dgSpecHash": "ouLzXCl9etmReTvzGknudjnFTXAnHHBpsGUK5UvJQLGSRDngIrgJogyZ5vh/TvvY/AYWY90TZYBTsSWmOexm/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock.API\\FreeCourse.Services.PhotoStock.API.csproj",
   "expectedPackageFiles": [

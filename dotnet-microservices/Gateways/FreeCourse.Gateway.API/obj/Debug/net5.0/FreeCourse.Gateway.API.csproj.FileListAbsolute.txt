@@ -24,6 +24,7 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\bin\Debug\net5.0\Ocelot.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.csproj.AssemblyReference.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.AssemblyInfoInputs.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.AssemblyInfo.cs
@@ -39,4 +40,3 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\ref\FreeCourse.Gateway.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.genruntimeconfig.cache
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.csproj.AssemblyReference.cache

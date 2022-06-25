@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 using FreeCourse.Shared.Dtos;
+using FreeCourse.Web.Client.Helpers;
 using FreeCourse.Web.Client.Models;
 using FreeCourse.Web.Client.Models.Catalogs;
 using FreeCourse.Web.Client.Services.Interfaces;
@@ -14,13 +15,22 @@ namespace FreeCourse.Web.Client.Services
     public class CatalogService : ICatalogService
     {
         private readonly HttpClient _client;
+        private readonly IPhotoStockService _photoStockService;
+        private readonly PhotoHelper _photoHelper;
 
-        public CatalogService(HttpClient client)
+        public CatalogService(HttpClient client, IPhotoStockService photoStockService, PhotoHelper photoHelper)
         {
-            _client = client;   
+            _client = client;
+            _photoStockService = photoStockService;
+            _photoHelper = photoHelper; 
         }
         public async Task<bool> AddCourseAsync(CourseCreateInput courseCreateInput)
         {
+            var resultPhotoService = await _photoStockService.UploadPhoto(courseCreateInput.PhotoFormFile);
+            if (resultPhotoService != null)
+            {
+                courseCreateInput.Picture = resultPhotoService.Url;
+            }
             var response = await _client.PostAsJsonAsync<CourseCreateInput>("courses", courseCreateInput);
             return response.IsSuccessStatusCode;
         }
@@ -40,6 +50,8 @@ namespace FreeCourse.Web.Client.Services
             }
 
             var responseSuccess = await response.Content.ReadFromJsonAsync<ResponseDto<List<CategoryViewModel>>>();
+
+            
             return responseSuccess.Data;
         }
 
@@ -52,6 +64,10 @@ namespace FreeCourse.Web.Client.Services
             }
 
             var responseSuccess = await response.Content.ReadFromJsonAsync<ResponseDto<List<CourseViewModel>>>();
+            responseSuccess.Data.ForEach(x =>
+            {
+                x.Picture = _photoHelper.GetPhotoStockUrl(x.Picture);
+            });
             return responseSuccess.Data;
         }
 
