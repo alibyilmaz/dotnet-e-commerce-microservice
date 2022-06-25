@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 namespace FreeCourse.Web.Client.Models.Catalogs
 {
@@ -19,5 +21,7 @@ namespace FreeCourse.Web.Client.Models.Catalogs
         public FeaturedViewModel Feature { get; set; }
 
         public string CategoryId { get; set; }
+        [Display(Name = "Course Name")]
+        public IFormFile PhotoFormFile { get; set; }
     }
 }

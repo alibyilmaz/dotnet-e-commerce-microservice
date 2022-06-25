@@ -26,7 +26,7 @@ namespace FreeCourse.Services.PhotoStock.API.Controllers
                 using var stream = new FileStream(path, FileMode.Create);
                 await photo.CopyToAsync(stream, cancellationToken);
 
-                var returnPath =photo.Name;
+                var returnPath =photo.FileName;
 
                 PhotoDto photoDto = new() { Url = returnPath };
 
