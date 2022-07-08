@@ -6,26 +6,30 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using FreeCourse.Web.Client.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FreeCourse.Web.Client.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ICatalogService _catalogService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, ICatalogService catalogService)
         {
             _logger = logger;
+            _catalogService = catalogService;   
+        }
+    
+        public async Task<IActionResult> IndexAsync()
+        {
+            return View(await _catalogService.GetAllCourseAsync());
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Detail(string id)
         {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
+            return View(await _catalogService.GetByCourseId(id));
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

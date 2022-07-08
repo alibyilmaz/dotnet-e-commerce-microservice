@@ -37,11 +37,12 @@ namespace FreeCourse.Services.PhotoStock.API.Controllers
         }
 
         [HttpDelete]
-        public  IActionResult PhotoDelete(string picUrl)
+        public async Task<IActionResult> PhotoDelete(string picUrl)
         {
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/photos", picUrl);
+   
+            var path =Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/photos", picUrl);
 
-            if (System.IO.File.Exists(path))
+            if (!System.IO.File.Exists(path))
             {
                 return CreateActionResultInstance(ResponseDto<NoContent>.Fail("",404));
             }
