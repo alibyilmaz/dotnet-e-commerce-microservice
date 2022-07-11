@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h0Ck7dcLKI7+WCYRL/zTBQrl8ce15HzJosUg40cXlPl/sElcZrZlHP+zzt9ZA/XH/np3gpqDysr1G6ryWi0fEA==",
+  "dgSpecHash": "VpI/n9ORNki5RddRTcMnRjgxU/mg+BfB9Lqzb2TLb1TGWt4olG/hxsXDC7Wu/5LcKfqLVi9mU8jx86LvlkaG+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Basket\\FreeCourse.Services.Basket.API\\FreeCourse.Services.Basket.API.csproj",
   "expectedPackageFiles": [

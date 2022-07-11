@@ -6,8 +6,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using FreeCourse.Web.Client.Exceptions;
 using FreeCourse.Web.Client.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Diagnostics;
 
 namespace FreeCourse.Web.Client.Controllers
 {
@@ -35,6 +37,12 @@ namespace FreeCourse.Web.Client.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
+            var errorFeature = HttpContext.Features.Get<IExceptionHandlerFeature>();
+            if (errorFeature != null && errorFeature.Error is UnAuthorizeException)
+            {
+                return RedirectToAction(nameof(AuthController.Logout), "Auth");
+            }
+
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }

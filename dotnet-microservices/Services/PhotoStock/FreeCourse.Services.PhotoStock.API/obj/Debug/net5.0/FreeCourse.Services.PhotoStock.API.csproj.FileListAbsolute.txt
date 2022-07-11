@@ -5,7 +5,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\bin\Debug\net5.0\FreeCourse.Services.PhotoStock.API.runtimeconfig.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\bin\Debug\net5.0\FreeCourse.Services.PhotoStock.API.runtimeconfig.dev.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\bin\Debug\net5.0\FreeCourse.Services.PhotoStock.API.dll
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\bin\Debug\net5.0\ref\FreeCourse.Services.PhotoStock.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\bin\Debug\net5.0\FreeCourse.Services.PhotoStock.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
@@ -28,7 +27,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\obj\Debug\net5.0\FreeCourse.Services.PhotoStock.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\obj\Debug\net5.0\FreeCourse.Services.PhotoStock.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\obj\Debug\net5.0\staticwebassets\FreeCourse.Services.PhotoStock.API.StaticWebAssets.Manifest.cache
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\obj\Debug\net5.0\staticwebassets\FreeCourse.Services.PhotoStock.API.StaticWebAssets.xml
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\obj\Debug\net5.0\scopedcss\bundle\FreeCourse.Services.PhotoStock.API.styles.css
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\obj\Debug\net5.0\FreeCourse.Services.PhotoStock.API.RazorTargetAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\obj\Debug\net5.0\FreeCourse.Services.PhotoStock.API.csproj.CopyComplete
@@ -36,3 +34,4 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\obj\Debug\net5.0\ref\FreeCourse.Services.PhotoStock.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\obj\Debug\net5.0\FreeCourse.Services.PhotoStock.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\obj\Debug\net5.0\FreeCourse.Services.PhotoStock.API.genruntimeconfig.cache
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock.API\obj\Debug\net5.0\refint\FreeCourse.Services.PhotoStock.API.dll

@@ -5,7 +5,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\FreeCourse.Services.Catalog.API.runtimeconfig.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\FreeCourse.Services.Catalog.API.runtimeconfig.dev.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\FreeCourse.Services.Catalog.API.dll
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\ref\FreeCourse.Services.Catalog.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\FreeCourse.Services.Catalog.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -50,7 +49,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\FreeCourse.Services.Catalog.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\FreeCourse.Services.Catalog.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\staticwebassets\FreeCourse.Services.Catalog.API.StaticWebAssets.Manifest.cache
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\staticwebassets\FreeCourse.Services.Catalog.API.StaticWebAssets.xml
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\scopedcss\bundle\FreeCourse.Services.Catalog.API.styles.css
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\FreeCourse.Services.Catalog.API.RazorTargetAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\FreeCourse.Services.Catalog.API.csproj.CopyComplete
@@ -58,3 +56,4 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\ref\FreeCourse.Services.Catalog.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\FreeCourse.Services.Catalog.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\FreeCourse.Services.Catalog.API.genruntimeconfig.cache
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\obj\Debug\net5.0\refint\FreeCourse.Services.Catalog.API.dll

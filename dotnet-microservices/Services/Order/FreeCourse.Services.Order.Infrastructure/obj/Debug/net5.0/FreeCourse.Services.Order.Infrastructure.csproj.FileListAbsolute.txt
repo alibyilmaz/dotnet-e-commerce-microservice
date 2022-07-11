@@ -2,7 +2,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Infrastructure\bin\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.runtimeconfig.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Infrastructure\bin\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.runtimeconfig.dev.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Infrastructure\bin\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.dll
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Infrastructure\bin\Debug\net5.0\ref\FreeCourse.Services.Order.Infrastructure.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Infrastructure\bin\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Infrastructure\bin\Debug\net5.0\FreeCourse.Services.Order.Core.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Infrastructure\bin\Debug\net5.0\FreeCourse.Services.Order.Domain.dll
@@ -18,3 +17,4 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Infrastructure\obj\Debug\net5.0\ref\FreeCourse.Services.Order.Infrastructure.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Infrastructure\obj\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Infrastructure\obj\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.genruntimeconfig.cache
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.Infrastructure\obj\Debug\net5.0\refint\FreeCourse.Services.Order.Infrastructure.dll

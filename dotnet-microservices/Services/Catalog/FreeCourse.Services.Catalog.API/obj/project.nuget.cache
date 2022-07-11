@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qH/QbFR3ePt/KKqe070YjmUpAAZZ1s2EiMLcpD/v6hQJk80OTkV28EkdswgnwJreUQpxC+jyWad32Ybu2jCeBQ==",
+  "dgSpecHash": "GG8XghTT+LMAKEWEonbyhp8SP4dGxek5ddlYnWfWFvqKddeL9VUNNPYqD/z1LS+fH3RH6GBPWkQX9Geui+SReQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Catalog\\FreeCourse.Services.Catalog.API\\FreeCourse.Services.Catalog.API.csproj",
   "expectedPackageFiles": [

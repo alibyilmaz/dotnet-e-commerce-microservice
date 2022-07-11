@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FYQvwmZak8mugQqZIyj0x63GCXHTuvEEAW19QiAuUXbSQXDI/uB5gxVr/LmOwcfp8tpPcV7PnPPFEYxWb02KWw==",
+  "dgSpecHash": "Qsr2LZhUXJkh0ngNkgTMyleKPoQjWfiVhW/rVnBZlGjcLA8KMlFrclRsq7Jg1fQ/26ckkmnLYYzM2sNjQqpQJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Discount\\FreeCourse.Services.Discount.API\\FreeCourse.Services.Discount.API.csproj",
   "expectedPackageFiles": [

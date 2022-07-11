@@ -108,7 +108,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.RazorAssemblyInfo.cs
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\staticwebassets\FreeCourse.IdentityServer.StaticWebAssets.Manifest.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\staticwebassets\FreeCourse.IdentityServer.StaticWebAssets.xml
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\scopedcss\bundle\FreeCourse.IdentityServer.styles.css
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.TagHelpers.input.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.TagHelpers.output.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.RazorCoreGenerate.cache

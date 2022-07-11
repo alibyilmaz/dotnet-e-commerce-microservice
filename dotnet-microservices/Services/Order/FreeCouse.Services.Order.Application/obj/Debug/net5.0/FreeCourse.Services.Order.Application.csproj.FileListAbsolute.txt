@@ -1,6 +1,5 @@
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCouse.Services.Order.Application\bin\Debug\net5.0\FreeCourse.Services.Order.Application.deps.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCouse.Services.Order.Application\bin\Debug\net5.0\FreeCourse.Services.Order.Application.dll
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCouse.Services.Order.Application\bin\Debug\net5.0\ref\FreeCourse.Services.Order.Application.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCouse.Services.Order.Application\bin\Debug\net5.0\FreeCourse.Services.Order.Application.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCouse.Services.Order.Application\bin\Debug\net5.0\FreeCourse.Services.Order.Core.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCouse.Services.Order.Application\bin\Debug\net5.0\FreeCourse.Services.Order.Domain.dll
@@ -19,3 +18,4 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCouse.Services.Order.Application\obj\Debug\net5.0\FreeCourse.Services.Order.Application.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCouse.Services.Order.Application\obj\Debug\net5.0\ref\FreeCourse.Services.Order.Application.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCouse.Services.Order.Application\obj\Debug\net5.0\FreeCourse.Services.Order.Application.pdb
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCouse.Services.Order.Application\obj\Debug\net5.0\refint\FreeCourse.Services.Order.Application.dll

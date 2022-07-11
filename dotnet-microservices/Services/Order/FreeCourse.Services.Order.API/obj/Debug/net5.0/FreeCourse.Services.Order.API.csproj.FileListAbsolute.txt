@@ -5,7 +5,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\FreeCourse.Services.Order.API.runtimeconfig.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\FreeCourse.Services.Order.API.runtimeconfig.dev.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\FreeCourse.Services.Order.API.dll
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\ref\FreeCourse.Services.Order.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\FreeCourse.Services.Order.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\Humanizer.dll
@@ -64,7 +63,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\FreeCourse.Services.Order.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\FreeCourse.Services.Order.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\staticwebassets\FreeCourse.Services.Order.API.StaticWebAssets.Manifest.cache
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\staticwebassets\FreeCourse.Services.Order.API.StaticWebAssets.xml
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\scopedcss\bundle\FreeCourse.Services.Order.API.styles.css
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\FreeCourse.Services.Order.API.RazorTargetAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\FreeCourse.Services.Order.API.csproj.CopyComplete
@@ -72,3 +70,4 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\ref\FreeCourse.Services.Order.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\FreeCourse.Services.Order.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\FreeCourse.Services.Order.API.genruntimeconfig.cache
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\refint\FreeCourse.Services.Order.API.dll

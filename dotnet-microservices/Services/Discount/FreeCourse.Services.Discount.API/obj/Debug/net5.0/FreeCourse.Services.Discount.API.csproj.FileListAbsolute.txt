@@ -5,7 +5,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\bin\Debug\net5.0\FreeCourse.Services.Discount.API.runtimeconfig.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\bin\Debug\net5.0\FreeCourse.Services.Discount.API.runtimeconfig.dev.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\bin\Debug\net5.0\FreeCourse.Services.Discount.API.dll
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\bin\Debug\net5.0\ref\FreeCourse.Services.Discount.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\bin\Debug\net5.0\FreeCourse.Services.Discount.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\bin\Debug\net5.0\Dapper.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\bin\Debug\net5.0\Dapper.Contrib.dll
@@ -32,7 +31,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\staticwebassets\FreeCourse.Services.Discount.API.StaticWebAssets.Manifest.cache
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\staticwebassets\FreeCourse.Services.Discount.API.StaticWebAssets.xml
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\scopedcss\bundle\FreeCourse.Services.Discount.API.styles.css
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.RazorTargetAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.csproj.CopyComplete
@@ -40,3 +38,4 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\ref\FreeCourse.Services.Discount.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\FreeCourse.Services.Discount.API.genruntimeconfig.cache
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Discount\FreeCourse.Services.Discount.API\obj\Debug\net5.0\refint\FreeCourse.Services.Discount.API.dll

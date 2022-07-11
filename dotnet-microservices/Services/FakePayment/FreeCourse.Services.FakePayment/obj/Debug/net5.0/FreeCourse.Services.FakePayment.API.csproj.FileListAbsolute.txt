@@ -5,7 +5,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\FreeCourse.Services.FakePayment.API.runtimeconfig.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\FreeCourse.Services.FakePayment.API.runtimeconfig.dev.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\FreeCourse.Services.FakePayment.API.dll
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\ref\FreeCourse.Services.FakePayment.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\FreeCourse.Services.FakePayment.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
@@ -28,7 +27,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net5.0\FreeCourse.Services.FakePayment.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net5.0\FreeCourse.Services.FakePayment.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net5.0\staticwebassets\FreeCourse.Services.FakePayment.API.StaticWebAssets.Manifest.cache
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net5.0\staticwebassets\FreeCourse.Services.FakePayment.API.StaticWebAssets.xml
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net5.0\scopedcss\bundle\FreeCourse.Services.FakePayment.API.styles.css
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net5.0\FreeCourse.Services.FakePayment.API.RazorTargetAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net5.0\FreeCourse.Services.FakePayment.API.csproj.CopyComplete
@@ -36,3 +34,4 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net5.0\ref\FreeCourse.Services.FakePayment.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net5.0\FreeCourse.Services.FakePayment.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net5.0\FreeCourse.Services.FakePayment.API.genruntimeconfig.cache
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\FakePayment\FreeCourse.Services.FakePayment\obj\Debug\net5.0\refint\FreeCourse.Services.FakePayment.API.dll

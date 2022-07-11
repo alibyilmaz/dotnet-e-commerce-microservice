@@ -9,7 +9,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\bin\Debug\net5.0\FreeCourse.Web.Client.runtimeconfig.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\bin\Debug\net5.0\FreeCourse.Web.Client.runtimeconfig.dev.json
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\bin\Debug\net5.0\FreeCourse.Web.Client.dll
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\bin\Debug\net5.0\ref\FreeCourse.Web.Client.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\bin\Debug\net5.0\FreeCourse.Web.Client.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\bin\Debug\net5.0\FreeCourse.Web.Client.Views.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\bin\Debug\net5.0\FreeCourse.Web.Client.Views.pdb
@@ -141,7 +140,6 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\FreeCourse.Web.Client.RazorAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\FreeCourse.Web.Client.RazorAssemblyInfo.cs
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\staticwebassets\FreeCourse.Web.Client.StaticWebAssets.Manifest.cache
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\staticwebassets\FreeCourse.Web.Client.StaticWebAssets.xml
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\scopedcss\bundle\FreeCourse.Web.Client.styles.css
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\FreeCourse.Web.Client.TagHelpers.input.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\FreeCourse.Web.Client.TagHelpers.output.cache
@@ -167,3 +165,4 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\ref\FreeCourse.Web.Client.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\FreeCourse.Web.Client.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\FreeCourse.Web.Client.genruntimeconfig.cache
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Frontends\FreeCourse.Web.Client\obj\Debug\net5.0\refint\FreeCourse.Web.Client.dll

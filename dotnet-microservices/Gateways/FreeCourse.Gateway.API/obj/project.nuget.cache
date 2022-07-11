@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "t7r41z6EGfFdZSt/20BXRPOCv6aGgwC63w6TBBa44muVf5p8Ucy9AO4DS+4Ke01/EttOfWPjZA31+63FCarRxQ==",
+  "dgSpecHash": "aTQKFwY1Lwo2XOvL4jNOrD7kGcQOjr2vGCfi4qSU3bJrBOiWXDz4A6E3S8Eycpwam8paEc6MNA9/TDKN6vE5FA==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Gateways\\FreeCourse.Gateway.API\\FreeCourse.Gateway.API.csproj",
   "expectedPackageFiles": [
