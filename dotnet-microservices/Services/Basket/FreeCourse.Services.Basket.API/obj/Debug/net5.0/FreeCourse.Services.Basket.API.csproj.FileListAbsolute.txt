@@ -33,12 +33,12 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\FreeCourse.Services.Basket.API.csproj.CoreCompileInputs.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\FreeCourse.Services.Basket.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\FreeCourse.Services.Basket.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\staticwebassets\FreeCourse.Services.Basket.API.StaticWebAssets.Manifest.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\scopedcss\bundle\FreeCourse.Services.Basket.API.styles.css
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\staticwebassets\FreeCourse.Services.Basket.API.StaticWebAssets.Manifest.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\FreeCourse.Services.Basket.API.RazorTargetAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\FreeCourse.Services.Basket.API.csproj.CopyComplete
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\FreeCourse.Services.Basket.API.dll
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\ref\FreeCourse.Services.Basket.API.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\refint\FreeCourse.Services.Basket.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\FreeCourse.Services.Basket.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\FreeCourse.Services.Basket.API.genruntimeconfig.cache
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\refint\FreeCourse.Services.Basket.API.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Basket\FreeCourse.Services.Basket.API\obj\Debug\net5.0\ref\FreeCourse.Services.Basket.API.dll

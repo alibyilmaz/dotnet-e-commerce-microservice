@@ -2,6 +2,7 @@
 @{
     ViewData["Title"] = "Detail";
 }
+@using Microsoft.AspNetCore.Mvc.TagHelpers
 @model CourseViewModel
 <div class="row">
     <div class="col-md-9">
@@ -21,7 +22,7 @@
             <div class="card-body">
                 <h4 class="card-title">Fiyat : @Model.Price TL</h4>
                 <div class="d-grid">
-                    <a href="#" class="btn btn-primary">Add Basket</a>
+                    <a asp-controller="Basket" asp-action="AddBasketItem" asp-route-courseid="@Model.Id" class="btn btn-primary">Add Basket</a>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ namespace FreeCourse.Web.Client.Services.Interfaces
 
         Task<bool> DeleteBasketAsync();
 
-        Task AddBasketItem(BasketViewModel basketViewModel);
+        Task AddBasketItem(BasketItemViewModel basketItemViewModel);
 
         Task<bool> RemoveBasketItem(string courseId);
 

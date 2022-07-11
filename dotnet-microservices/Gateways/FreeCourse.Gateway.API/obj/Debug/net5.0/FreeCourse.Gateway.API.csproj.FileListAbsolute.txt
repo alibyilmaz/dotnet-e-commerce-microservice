@@ -30,12 +30,12 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.csproj.CoreCompileInputs.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\staticwebassets\FreeCourse.Gateway.API.StaticWebAssets.Manifest.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\scopedcss\bundle\FreeCourse.Gateway.API.styles.css
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\staticwebassets\FreeCourse.Gateway.API.StaticWebAssets.Manifest.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.RazorTargetAssemblyInfo.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.csproj.CopyComplete
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.dll
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\ref\FreeCourse.Gateway.API.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\refint\FreeCourse.Gateway.API.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\FreeCourse.Gateway.API.genruntimeconfig.cache
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\refint\FreeCourse.Gateway.API.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Gateways\FreeCourse.Gateway.API\obj\Debug\net5.0\ref\FreeCourse.Gateway.API.dll

@@ -8,7 +8,7 @@ namespace FreeCourse.Web.Client.Models
 {
     public class ClientSettings
     {
-        public Client WebClient { get; set; }
+        public Client WebMvcClient { get; set; }
         public Client WebMvcClientForUser { get; set; }
     }
 
