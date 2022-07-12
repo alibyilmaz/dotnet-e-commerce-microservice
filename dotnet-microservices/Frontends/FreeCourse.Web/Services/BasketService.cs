@@ -6,7 +6,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
+using FreeCourse.Web.Models.Discounts;
+using FreeCourse.Web.Helpers;
 
 namespace FreeCourse.Web.Services
 {
@@ -14,11 +17,13 @@ namespace FreeCourse.Web.Services
     {
         private readonly HttpClient _httpClient;
         private readonly IDiscountService _discountService;
+      
 
         public BasketService(HttpClient httpClient, IDiscountService discountService)
         {
             _httpClient = httpClient;
             _discountService = discountService;
+         
         }
 
         public async Task AddBasketItem(BasketItemViewModel basketItemViewModel)
@@ -86,6 +91,25 @@ namespace FreeCourse.Web.Services
 
         public async Task<BasketViewModel> Get()
         {
+
+            //var response = await _httpClient.GetAsync("baskets");
+            //var response2 = _httpClient.GetFromJsonAsync<ResponseDto<BasketViewModel>>("baskets").GetAwaiter().GetResult();
+
+            //if (response2.Data.DiscountCode != null)
+            //{
+
+            //    int code = _discountService.GetDiscount(response2.Data.DiscountCode).Result.Rate;
+            //    response2.Data.ApplyDiscount(response2.Data.DiscountCode, code);
+            //    return response2.Data;
+            //}
+
+            //else
+            //{
+            //    var basketViewModel = await response.Content.ReadFromJsonAsync<ResponseDto<BasketViewModel>>();
+
+            //    return basketViewModel.Data;
+            //}
+
             var response = await _httpClient.GetAsync("baskets");
 
             if (!response.IsSuccessStatusCode)

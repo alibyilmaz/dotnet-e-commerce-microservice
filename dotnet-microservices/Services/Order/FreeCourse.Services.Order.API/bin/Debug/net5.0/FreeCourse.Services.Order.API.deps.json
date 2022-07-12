@@ -34,6 +34,9 @@
       "FreeCourse.Services.Order.API/1.0.0": {
         "dependencies": {
           "FreeCourse.Services.Order.Application": "1.0.0",
+          "FreeCourse.Services.Order.Core": "1.0.0",
+          "FreeCourse.Services.Order.Domain": "1.0.0",
+          "FreeCourse.Services.Order.Infrastructure": "1.0.0",
           "FreeCourse.Shared": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.13",
           "Microsoft.EntityFrameworkCore.Design": "5.0.4",
@@ -1321,6 +1324,7 @@
       "FreeCourse.Services.Order.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
+          "FreeCourse.Services.Order.Core": "1.0.0",
           "FreeCourse.Services.Order.Domain": "1.0.0",
           "FreeCourse.Services.Order.Infrastructure": "1.0.0",
           "FreeCourse.Shared": "1.0.0"

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -15,6 +15,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Shared\FreeCourse.Shared\FreeCourse.Shared.csproj" />
+    <ProjectReference Include="..\FreeCourse.Services.Order.Core\FreeCourse.Services.Order.Core.csproj" />
+    <ProjectReference Include="..\FreeCourse.Services.Order.Domain\FreeCourse.Services.Order.Domain.csproj" />
+    <ProjectReference Include="..\FreeCourse.Services.Order.Infrastructure\FreeCourse.Services.Order.Infrastructure.csproj" />
     <ProjectReference Include="..\FreeCouse.Services.Order.Application\FreeCourse.Services.Order.Application.csproj" />
   </ItemGroup>
 

@@ -5864,6 +5864,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 10.1.1",
+      "FreeCourse.Services.Order.Core >= 1.0.0",
       "FreeCourse.Services.Order.Domain >= 1.0.0",
       "FreeCourse.Services.Order.Infrastructure >= 1.0.0",
       "FreeCourse.Shared >= 1.0.0"
@@ -5896,6 +5897,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCourse.Services.Order.Core\\FreeCourse.Services.Order.Core.csproj": {
+              "projectPath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCourse.Services.Order.Core\\FreeCourse.Services.Order.Core.csproj"
+            },
             "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCourse.Services.Order.Domain\\FreeCourse.Services.Order.Domain.csproj": {
               "projectPath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCourse.Services.Order.Domain\\FreeCourse.Services.Order.Domain.csproj"
             },

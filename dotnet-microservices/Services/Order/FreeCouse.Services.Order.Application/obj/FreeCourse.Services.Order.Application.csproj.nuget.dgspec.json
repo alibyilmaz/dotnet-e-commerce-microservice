@@ -220,6 +220,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCourse.Services.Order.Core\\FreeCourse.Services.Order.Core.csproj": {
+                "projectPath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCourse.Services.Order.Core\\FreeCourse.Services.Order.Core.csproj"
+              },
               "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCourse.Services.Order.Domain\\FreeCourse.Services.Order.Domain.csproj": {
                 "projectPath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCourse.Services.Order.Domain\\FreeCourse.Services.Order.Domain.csproj"
               },

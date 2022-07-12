@@ -20,6 +20,7 @@
     "FreeCourse.Services.FakePayment": {
       "commandName": "Project",
       "launchUrl": "swagger",
+      "launchBrowser": false,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

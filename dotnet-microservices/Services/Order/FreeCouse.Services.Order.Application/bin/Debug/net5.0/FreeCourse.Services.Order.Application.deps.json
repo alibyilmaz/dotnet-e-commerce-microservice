@@ -9,6 +9,7 @@
       "FreeCourse.Services.Order.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
+          "FreeCourse.Services.Order.Core": "1.0.0",
           "FreeCourse.Services.Order.Domain": "1.0.0",
           "FreeCourse.Services.Order.Infrastructure": "1.0.0",
           "FreeCourse.Shared": "1.0.0"

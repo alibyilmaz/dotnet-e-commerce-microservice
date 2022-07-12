@@ -51,10 +51,10 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\FreeCourse.Shared.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\FreeCourse.Shared.pdb
-C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\FreeCourse.Services.Order.Application.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\FreeCourse.Services.Order.Core.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\FreeCourse.Services.Order.Domain.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\FreeCourse.Services.Order.Infrastructure.pdb
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\bin\Debug\net5.0\FreeCourse.Services.Order.Application.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\FreeCourse.Services.Order.API.csproj.AssemblyReference.cache
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\FreeCourse.Services.Order.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Order\FreeCourse.Services.Order.API\obj\Debug\net5.0\FreeCourse.Services.Order.API.AssemblyInfoInputs.cache

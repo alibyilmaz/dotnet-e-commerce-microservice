@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zcxYa5VqNGOdfCHDvypuVVWD0siINoBOrrPqNC/RDzdIWvO1Q2oo7DU4PNeLlL1ijWEFcHUbyY5E6NUQveGw5Q==",
+  "dgSpecHash": "tpSIkcz3kc4uDS6p6rK4+pvXe8JNa41G4GEDqMYg6vtShfyIfDTjKAHOeDl8nNDf1SAtk2hrmHQ81FxM2uTSTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\dotnet-microservice\\dotnet-e-commerce-microservice\\dotnet-microservices\\Services\\Order\\FreeCouse.Services.Order.Application\\FreeCourse.Services.Order.Application.csproj",
   "expectedPackageFiles": [
