@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
+using MassTransit;
 
 namespace FreeCourse.Services.FakePayment
 {
@@ -37,8 +38,19 @@ namespace FreeCourse.Services.FakePayment
                 options.Audience = "resource_payment";
                 options.RequireHttpsMetadata = false;
             });
-
-
+            //port5672
+            services.AddMassTransit(x =>
+            {
+                x.UsingRabbitMq((context, cfg) =>
+                {
+                    cfg.Host("RabbitMQUrl://localhost", "/", h =>
+                    {
+                        h.Username("guest");
+                        h.Password("guest");
+                    });
+                });
+            });
+            services.AddMassTransitHostedService();
             services.AddControllers(opt =>
             {
                 opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));

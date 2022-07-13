@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FreeCouse.Services.Order.Application.Dtos;
 
 namespace FreeCourse.Web.Models.Orders
 {
@@ -11,7 +12,7 @@ namespace FreeCourse.Web.Models.Orders
         public DateTime CreatedDate { get; set; }
 
         //Ödeme geçmişimde adress alanına ihtiyaç olmadığından dolayı alınmadı
-        // public AddressDto Address { get; set; }
+        public AddressDto Address { get; set; }
 
         public string BuyerId { get; set; }
 
