@@ -8,8 +8,15 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\FreeCourse.Services.Catalog.API.pdb
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Automatonymous.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\DnsClient.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\GreenPipes.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\MassTransit.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\MassTransit.RabbitMqTransport.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
@@ -23,6 +30,10 @@ C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microser
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\MongoDB.Driver.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\MongoDB.Driver.Core.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\NewId.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\RabbitMQ.Client.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\SharpCompress.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\user\dotnet-microservice\dotnet-e-commerce-microservice\dotnet-microservices\Services\Catalog\FreeCourse.Services.Catalog.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
