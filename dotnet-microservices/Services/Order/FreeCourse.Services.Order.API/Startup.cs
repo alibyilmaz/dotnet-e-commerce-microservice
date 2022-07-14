@@ -12,6 +12,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.IdentityModel.Tokens.Jwt;
+using FreeCourse.Services.Order.Application.Consumer;
+using MassTransit;
 
 namespace FreeCourse.Services.Order.API
 {
@@ -27,6 +29,28 @@ namespace FreeCourse.Services.Order.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddMassTransit(x =>
+            {
+                x.AddConsumer<CreateOrderMesssageCommandConsumer>();
+                // Default Port : 5672
+                x.UsingRabbitMq((context, cfg) =>
+                {
+
+                    cfg.Host(Configuration["RabbitMQUrl"], "/", host =>
+                    {
+                        host.Username("guest");
+                        host.Password("guest");
+                    });
+                    cfg.ReceiveEndpoint("order", e =>
+                    {
+                        e.ConfigureConsumer<CreateOrderMesssageCommandConsumer>(context);
+                    });
+
+                });
+            });
+
+            services.AddMassTransitHostedService();
             var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
@@ -45,7 +69,7 @@ namespace FreeCourse.Services.Order.API
 
             });
             services.AddMediatR(typeof(Application.Handlers.CreateOrderCommandHandler).Assembly);
-            services.AddScoped<ISharedIdentityService,SharedIdentityService>();
+            services.AddScoped<ISharedIdentityService, SharedIdentityService>();
             services.AddHttpContextAccessor();
             services.AddControllers(opt =>
             {
