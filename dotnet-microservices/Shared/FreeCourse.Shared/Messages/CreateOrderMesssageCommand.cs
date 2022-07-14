@@ -6,6 +6,10 @@ namespace FreeCourse.Shared.Messages
 {
     public class CreateOrderMesssageCommand
     {
+        public CreateOrderMesssageCommand()
+        {
+            OrderItems = new List<OrderItem>();
+        }
         public string? BuyerId { get; set; }
         public List<OrderItem> OrderItems { get; set; }
         public string? Province { get; set; }
